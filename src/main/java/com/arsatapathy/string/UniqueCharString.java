@@ -4,14 +4,6 @@ import java.util.HashSet;
 
 public class UniqueCharString {
 
-    public static void main(String[] args) {
-        System.out.println(isUnique("ashish"));
-        System.out.println(isUnique("string"));
-
-        System.out.println(isUniqueString("ashish"));
-        System.out.println(isUniqueString("string"));
-    }
-
     public static boolean isUnique(String input) {
         HashSet<Character> set = new HashSet<>();
 
